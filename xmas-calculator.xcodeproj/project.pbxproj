@@ -12,6 +12,8 @@
 		1E31AB1F1C0F92C900D467A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E31AB1D1C0F92C900D467A9 /* Main.storyboard */; };
 		1E31AB211C0F92C900D467A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E31AB201C0F92C900D467A9 /* Assets.xcassets */; };
 		1E31AB241C0F92C900D467A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E31AB221C0F92C900D467A9 /* LaunchScreen.storyboard */; };
+		1E31AB2C1C0FB01F00D467A9 /* SANTBSB_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1E31AB2B1C0FB01F00D467A9 /* SANTBSB_.TTF */; };
+		1E31AB2E1C0FE1A000D467A9 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E31AB2D1C0FE1A000D467A9 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1E31AB201C0F92C900D467A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E31AB231C0F92C900D467A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E31AB251C0F92C900D467A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E31AB2B1C0FB01F00D467A9 /* SANTBSB_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SANTBSB_.TTF; sourceTree = "<group>"; };
+		1E31AB2D1C0FE1A000D467A9 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		1E31AB0D1C0F92C900D467A9 = {
 			isa = PBXGroup;
 			children = (
+				1E31AB2D1C0FE1A000D467A9 /* btn.wav */,
+				1E31AB2B1C0FB01F00D467A9 /* SANTBSB_.TTF */,
 				1E31AB181C0F92C900D467A9 /* xmas-calculator */,
 				1E31AB171C0F92C900D467A9 /* Products */,
 			);
@@ -123,6 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E31AB2E1C0FE1A000D467A9 /* btn.wav in Resources */,
+				1E31AB2C1C0FB01F00D467A9 /* SANTBSB_.TTF in Resources */,
 				1E31AB241C0F92C900D467A9 /* LaunchScreen.storyboard in Resources */,
 				1E31AB211C0F92C900D467A9 /* Assets.xcassets in Resources */,
 				1E31AB1F1C0F92C900D467A9 /* Main.storyboard in Resources */,
@@ -252,6 +260,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.christopheraugg.xmas-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -263,6 +272,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.christopheraugg.xmas-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -285,6 +295,7 @@
 				1E31AB2A1C0F92C900D467A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
